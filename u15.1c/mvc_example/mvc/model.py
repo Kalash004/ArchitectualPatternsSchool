@@ -40,3 +40,5 @@ class TaskListModel():
                 lines = f.readlines()
             with open("task_list.txt", "w") as f:
                 f.writelines(lines[1:])
+
+    def ask_premission(self):

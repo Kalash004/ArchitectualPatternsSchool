@@ -79,6 +79,9 @@ class ConsoleView():
             return
         print(f"\t1. {task.strip()}")
 
+    def remove_first_task(self):
+
+
     def update(self):
         if (self.show_message == True):
             self.print_message()
@@ -96,3 +99,4 @@ class ConsoleView():
             self.show_first_task()
 
         if (self.remove_first_task == True):
+            self.remove_first_task()
